@@ -39,6 +39,7 @@ input.onGesture(Gesture.Shake, function () {
     basic.showNumber(Score_A)
     basic.pause(2000)
     basic.showNumber(Score_B)
+    basic.clearScreen()
 })
 let Score_B = 0
 let Score_A = 0
